@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		String hello = "Hello World!";
+		String ola = "Olá Mundo";
+		System.out.println(hello);
+		System.out.print(ola);
+
+	}
+
+}

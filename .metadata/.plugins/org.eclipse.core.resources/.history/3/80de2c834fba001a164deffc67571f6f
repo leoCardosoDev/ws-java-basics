@@ -1,0 +1,33 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String hello = "Hello World!";
+		String ola = "Olá Mundo";
+		int y = 32;
+		int x = 34;
+		double z = 10.35784;
+		
+		String nome = "Maria";
+		int idade = 31;
+		double renda = 7000.0;
+		
+		System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
+		
+		System.out.println(hello);
+		System.out.println(ola);
+		System.out.println(y+x);
+		System.out.println(z);
+		System.out.printf("%.2f%n", z);
+		System.out.printf("%,4f%n", z);
+		Locale.setDefault(Locale.US);
+		System.out.printf("%.2f%n", z);
+		System.out.printf("%,4f%n", z);
+		
+		System.out.println("Resultado = " + (y + x));
+		/* System.out.printf("Resultado = %.2f mestros%n", x); */
+
+	}
+
+}

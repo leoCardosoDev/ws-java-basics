@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		String hello = "Hello World!";
+		String ola = "Olá Mundo";
+		int y = 32;
+		int x = 34;
+		System.out.println(hello);
+		System.out.print(ola);
+		System.out.print(y+x);
+
+	}
+
+}

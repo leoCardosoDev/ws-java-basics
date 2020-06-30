@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/Users/leonardodeoliveirasilva/Public/java/ws-java/.metadata/.plugins/org.eclipse.jdt.core
